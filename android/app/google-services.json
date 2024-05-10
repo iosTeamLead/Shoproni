@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "815425984221",
+    "project_id": "shoproni-d1667",
+    "storage_bucket": "shoproni-d1667.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815425984221:android:570d01f9d24186c1baed34",
+        "android_client_info": {
+          "package_name": "com.shoproni"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqkhI1rfiSWHiXpDfg5PMwSN5262WEp1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

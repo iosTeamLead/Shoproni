@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/BriemHand-Black.ttf",
+      "sha1": "f20579d41e141ae8acb711d25f782aa77c1ad8e2"
+    },
+    {
+      "path": "src/assets/fonts/BriemHand-Bold.ttf",
+      "sha1": "e0b6468d45d9acd111125f73ce441d98d9c3f412"
+    },
+    {
+      "path": "src/assets/fonts/BriemHand-ExtraBold.ttf",
+      "sha1": "e2d83d9c004834cc158633d1667e98afc3140da2"
+    },
+    {
+      "path": "src/assets/fonts/BriemHand-ExtraLight.ttf",
+      "sha1": "6e8d079e9e50050f53290a811a48595dd33b39b0"
+    },
+    {
+      "path": "src/assets/fonts/BriemHand-Light.ttf",
+      "sha1": "1b30110c02411fa8140adade128ffe14974ac71d"
+    },
+    {
+      "path": "src/assets/fonts/BriemHand-Medium.ttf",
+      "sha1": "876cb1759abe3b2637d540da5fb23ef5459abebe"
+    },
+    {
+      "path": "src/assets/fonts/BriemHand-Regular.ttf",
+      "sha1": "dd652c4fa99f11add7669f93f971b258b7d12fc1"
+    },
+    {
+      "path": "src/assets/fonts/BriemHand-SemiBold.ttf",
+      "sha1": "e3b9561171e702c0cdfcd11e7e9ce04e9566bb5a"
+    },
+    {
+      "path": "src/assets/fonts/BriemHand-Thin.ttf",
+      "sha1": "ac73d7c7b3627b26483e239a458f2834fa023704"
+    }
+  ]
+}
