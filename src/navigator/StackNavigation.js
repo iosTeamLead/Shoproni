@@ -71,6 +71,7 @@ import Workout from '../container/Trends/Workout'
 import OrderScreen from '../container/OtherScreen/OrderScreen'
 import HelpCenter from '../container/OtherScreen/HelpCenter'
 import OTPVerification from '../screens/OTPVerification'
+import Shorts from '../container/OtherScreen/Shorts'
 
 const Stack=createStackNavigator()
 
@@ -146,7 +147,7 @@ const StackNavigation = () => {
         <Stack.Screen name='OrderScreen'component={OrderScreen} options={{headerShown:false}}/>
         <Stack.Screen name='HelpCenter'component={HelpCenter} options={{headerShown:false}}/>
         <Stack.Screen name='Checkout2'component={Checkout2} options={{headerShown:false}}/>
-   
+        <Stack.Screen name='Shorts' component={Shorts} options={{headerShown:false}}/>
     </Stack.Navigator>
   </SafeAreaProvider>
   )

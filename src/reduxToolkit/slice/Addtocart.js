@@ -11,15 +11,15 @@ const Addtocart = createSlice({
   reducers: {
     addCartItem(state, action) {
       state.cartItems.push(action.payload);
-      AsyncStorage.setItem('cartItems', JSON.stringify(state.cartItems)); // Persist cartItems in AsyncStorage
+      AsyncStorage.setItem('cartItems', JSON.stringify(state.cartItems)); 
     },
     removeCartItem(state, action) {
       state.cartItems = state.cartItems.filter((item) => item.id !== action.payload.id);
-      AsyncStorage.setItem('cartItems', JSON.stringify(state.cartItems)); // Update AsyncStorage after removing item
+      AsyncStorage.setItem('cartItems', JSON.stringify(state.cartItems)); 
     },
     clearCart(state, action) {
       state.cartItems = [];
-      AsyncStorage.removeItem('cartItems'); // Clear cartItems from AsyncStorage
+      AsyncStorage.removeItem('cartItems');
     }
   },
 });

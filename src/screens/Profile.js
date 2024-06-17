@@ -68,7 +68,7 @@ const Profile = () => {
          
         </View>
         <View style={[style.view3,{marginTop:0}]}>
-          <TouchableOpacity style={style.view2}>
+          <TouchableOpacity style={style.view2} onPress={()=>navigation.navigate('Shorts')}>
           <Image source={require('../assets/gifco.png')} resizeMode='contain' style={style.imge3}/>
             <Text style={style.txt}>{t('common.coupons')}</Text>
             </TouchableOpacity>
